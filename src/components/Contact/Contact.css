@@ -8,16 +8,17 @@
 }
 .contact-left {
   background-color: white;
-  width: 40%;
-  text-align: center;
   padding: 100px;
+  text-align: center;
   box-sizing: border-box;
 }
 .contact-left h3 {
   font-size: 40px;
+  color: rgb(16, 77, 16);
 }
 .contact-right h3 {
   font-size: 40px;
+  color: rgb(16, 77, 16);
 }
 .contact-right label {
   font-size: 20px;
@@ -27,8 +28,7 @@ label sup {
   color: red;
 }
 .contact-right {
-  background-color: rgb(145, 140, 140);
-  width: 40%;
+  background-color: blanchedalmond;
   padding: 100px;
   box-sizing: border-box;
 }
@@ -37,6 +37,23 @@ label sup {
 }
 .contact-container-outer h2 {
   text-align: center;
+  color: rgb(6, 58, 6);
+  border-bottom: 8px solid #e8bf5e;
   font-size: 60px;
   margin-bottom: 20px;
+}
+.contact-container-outer {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+#submitBtn {
+  margin: 50px;
+  padding: 15px 0;
+  border: none;
+  border-radius: 5px;
+  font-size: 20px;
+  font-weight: bold;
+  color: white;
+  background-color: #e6870b;
 }

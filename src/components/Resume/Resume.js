@@ -4,12 +4,12 @@ import "./Resume.css";
 export default function Resume() {
   return (
     <div className="resume-container" id="resume">
-      <h2>Resume</h2>
+      <p className="resume-title">Resume</p>
       <ul>
         <li>
-          <h3>Full Stack web development</h3>
+          <p className="edu-title">Full Stack web development</p>
           <div className="vertical-line">
-            <h4>Elevation Academy - PrepBytes</h4>
+            <p className="institute">Elevation Academy - PrepBytes</p>
             <p className="date">08/2021 - Present</p>
             <p className="course-title">Courses</p>
             <p className="courses">
@@ -18,9 +18,11 @@ export default function Resume() {
           </div>
         </li>
         <li>
-          <h3>B.Tech</h3>
+          <p className="edu-title">B.Tech</p>
           <div className="vertical-line">
-            <h4>Federal Institute of Science And Technology (FISAT)®</h4>
+            <p className="institute">
+              Federal Institute of Science And Technology (FISAT)®
+            </p>
             <p className="date">07/2016 - 07/2020</p>
             <p className="cgpa">CGPA : 7.11</p>
             <p className="course-title">Courses</p>

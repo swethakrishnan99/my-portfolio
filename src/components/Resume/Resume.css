@@ -1,23 +1,31 @@
 .resume-container {
   padding: 10px 100px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 }
-.resume-container h2 {
+.resume-title {
   font-size: 60px;
-  text-align: center;
+  font-weight: bold;
+  border-bottom: 8px solid #e8bf5e;
+  color: rgb(6, 58, 6);
 }
 .resume-container ul {
   list-style-type: circle;
+  color: rgb(16, 77, 16);
 }
-.resume-container h3 {
+.resume-container .edu-title {
   font-size: 30px;
   margin-bottom: 0;
+  font-weight: bold;
 }
-.resume-container h4 {
+.resume-container .institute {
   font-size: 20px;
   margin-top: 5px;
+  font-weight: bold;
 }
 .vertical-line {
-  border-left: 5px solid black;
+  border-left: 5px solid rgb(22, 97, 22);
   position: relative;
   right: 16px;
   padding-left: 50px;
