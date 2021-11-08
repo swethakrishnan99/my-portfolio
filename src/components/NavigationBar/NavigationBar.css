@@ -1,0 +1,37 @@
+nav {
+  position: fixed;
+  width: 100%;
+  display: flex;
+  justify-content: space-around;
+  will-change: 50%;
+  background-color: blanchedalmond;
+  padding: 5px 0;
+  color: green;
+}
+nav p {
+  font-size: 40px;
+  font-weight: bold;
+  color: rgb(6, 58, 6);
+  margin: 0;
+}
+nav ul {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 50%;
+  list-style-type: none;
+  font-size: 22px;
+  font-weight: normal;
+  margin: 0;
+}
+.navigation li {
+  padding: 5px 15px;
+}
+.navigation a:hover {
+  font-size: 24px;
+  color: #e0b34b;
+}
+.navigation a {
+  text-decoration: none;
+  color: rgb(6, 58, 6);
+}

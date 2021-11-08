@@ -1,0 +1,42 @@
+.flex-row {
+  display: flex;
+  justify-content: center;
+}
+.flex-column {
+  display: flex;
+  flex-direction: column;
+}
+.contact-left {
+  background-color: white;
+  width: 40%;
+  text-align: center;
+  padding: 100px;
+  box-sizing: border-box;
+}
+.contact-left h3 {
+  font-size: 40px;
+}
+.contact-right h3 {
+  font-size: 40px;
+}
+.contact-right label {
+  font-size: 20px;
+  padding-bottom: 10px;
+}
+label sup {
+  color: red;
+}
+.contact-right {
+  background-color: rgb(145, 140, 140);
+  width: 40%;
+  padding: 100px;
+  box-sizing: border-box;
+}
+.contact-right input {
+  padding: 10px;
+}
+.contact-container-outer h2 {
+  text-align: center;
+  font-size: 60px;
+  margin-bottom: 20px;
+}
