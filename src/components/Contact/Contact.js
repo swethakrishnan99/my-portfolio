@@ -1,4 +1,9 @@
 import React, { Component } from "react";
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+import { faEnvelope } from "@fortawesome/free-solid-svg-icons";
+import { faPhoneVolume } from "@fortawesome/free-solid-svg-icons";
+import { faMapMarkerAlt } from "@fortawesome/free-solid-svg-icons";
+import Form from "./Form";
 import "./Contact.css";
 
 export default class Contact extends Component {
@@ -8,36 +13,21 @@ export default class Contact extends Component {
         <h2>Contact Me</h2>
         <div className="flex-row contact-container-inner">
           <div className="flex-column contact-left">
-            <h3>Let's contact</h3>
-            <p></p>
+            <p className="contact-title2">Let's connect</p>
+            <span className="contact-details">
+              <FontAwesomeIcon icon={faEnvelope} className="contact-icon" />
+              &ensp;swethakrishnan7399@gmail.com
+            </span>
+            <span className="contact-details">
+              <FontAwesomeIcon icon={faPhoneVolume} className="contact-icon" />
+              &ensp;+91-8547702433
+            </span>
+            <span className="contact-details">
+              <FontAwesomeIcon icon={faMapMarkerAlt} className="contact-icon" />
+              &ensp;PSRA 10, Perole, Nileshwar, PIN:671314
+            </span>
           </div>
-          <form action="#" className="flex-column contact-right">
-            <h3>Send me a message</h3>
-            <label htmlFor="name">
-              First & last Name <sup>*</sup>
-            </label>
-            <input type="text" name="name" />
-            <label htmlFor="phone">
-              Phone number <sup>*</sup>
-            </label>
-            <input type="tel" name="phone" />
-            <label htmlFor="email">
-              Email address <sup>*</sup>
-            </label>
-            <input type="email" name="email" />
-            <label htmlFor="message">
-              Message <sup>*</sup>
-            </label>
-            <textarea
-              name="message"
-              cols="30"
-              rows="8"
-              placeholder="Your message here..."
-            ></textarea>
-            <button type="submit" id="submitBtn">
-              Send Message
-            </button>
-          </form>
+          <Form />
         </div>
       </div>
     );
