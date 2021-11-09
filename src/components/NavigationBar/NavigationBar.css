@@ -1,37 +1,127 @@
-nav {
+.nav-head {
+  display: flex;
   position: fixed;
   width: 100%;
-  display: flex;
-  justify-content: space-around;
-  will-change: 50%;
-  background-color: blanchedalmond;
-  padding: 5px 0;
-  color: green;
 }
-nav p {
+.nav-fixed {
+  display: flex;
+  padding-left: 50px;
+  width: 100%;
+  justify-content: space-between;
+  height: 70px;
+  box-sizing: border-box;
+  background-color: blanchedalmond;
+}
+.nav-head p {
   font-size: 40px;
   font-weight: bold;
   color: rgb(6, 58, 6);
   margin: 0;
 }
-nav ul {
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  width: 50%;
-  list-style-type: none;
-  font-size: 22px;
-  font-weight: normal;
+.nav-bar {
+  width: 65%;
+  box-sizing: border-box;
+  background-color: blanchedalmond;
+  padding-right: 50px;
   margin: 0;
+  height: 70px;
 }
-.navigation li {
-  padding: 5px 15px;
+.nav-bar ul {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  width: 100%;
+  list-style-type: none;
 }
-.navigation a:hover {
+.nav-bar-colum {
+  display: none;
+}
+.nav-bar a {
+  font-size: 22px;
+  text-decoration: none;
+  color: rgb(6, 58, 6);
+}
+.menu-btn {
+  background-color: blanchedalmond;
+  border: none;
+  display: none;
+}
+.nav-bar a:hover {
   font-size: 24px;
   color: #e0b34b;
 }
-.navigation a {
-  text-decoration: none;
+.menu-icon {
+  font-size: 30px;
   color: rgb(6, 58, 6);
+}
+@media only screen and (max-width: 640px) {
+  .menu-btn {
+    display: block;
+  }
+  .nav-bar-colum {
+    display: flex;
+  }
+  .nav-fixed {
+    justify-content: space-between;
+    align-items: center;
+    padding-left: 5px;
+    width: 100vw;
+    height: 50px;
+  }
+  .nav-bar-colum {
+    position: fixed;
+    z-index: 1;
+    margin-left: 30vw;
+    top: 50px;
+    padding: 0;
+    height: 100%;
+    background-color: blanchedalmond;
+    padding-right: 5px;
+  }
+  .nav-bar-colum ul {
+    display: flex;
+    list-style-type: none;
+    width: 70vw;
+    flex-direction: column;
+    justify-content: start;
+  }
+  .nav-bar a {
+    font-size: 20px;
+  }
+  .nav-bar a:hover {
+    font-size: 22px;
+  }
+  .nav-bar-colum li {
+    line-height: 40px;
+  }
+  .nav-head {
+    display: block;
+    background-color: rgb(238, 236, 236);
+    width: auto;
+  }
+  .nav-head p {
+    font-size: 20px;
+  }
+  .nav-bar {
+    display: none;
+  }
+}
+@media only screen and (min-width: 641px) and (max-width: 1350px) {
+  .nav-bar {
+    padding-right: 0;
+  }
+  .nav-fixed p {
+    font-size: 28px;
+  }
+  .nav-fixed {
+    padding-left: 5px;
+    padding-right: 0;
+    align-items: center;
+  }
+  .nav-bar a {
+    font-size: 20px;
+  }
+  .nav-bar a:hover {
+    font-size: 22px;
+  }
 }

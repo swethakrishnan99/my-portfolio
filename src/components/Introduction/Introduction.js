@@ -14,7 +14,12 @@ export default function Introduction() {
             Hire Me
           </button>
         </a>
-        <a href={resume} download="SWETHA's Resume" target="_blank">
+        <a
+          href={resume}
+          download="SWETHA's Resume"
+          target="_blank"
+          rel="noreferrer"
+        >
           <button className="btn" id="getResume">
             Get Resume
           </button>

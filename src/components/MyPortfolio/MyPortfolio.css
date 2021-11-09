@@ -19,3 +19,14 @@
 .project-img:hover {
   transform: translateY(-20px);
 }
+@media only screen and (max-width: 640px) {
+  .project-img {
+    width: 300px;
+    height: 200px;
+    margin: 5px;
+  }
+  .portfolio-title {
+    font-size: 40px;
+    padding: 20px 0 10px 0;
+  }
+}

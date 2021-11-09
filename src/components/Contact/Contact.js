@@ -10,7 +10,7 @@ export default class Contact extends Component {
   render() {
     return (
       <div className="contact-container-outer" id="contact">
-        <h2>Contact Me</h2>
+        <p className="contact-title">Contact Me</p>
         <div className="flex-row contact-container-inner">
           <div className="flex-column contact-left">
             <p className="contact-title2">Let's connect</p>

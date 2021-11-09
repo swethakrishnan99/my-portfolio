@@ -1,28 +1,39 @@
-import React from "react";
-// import { BrowserRouter as Router, Switch, Route, Link } from "react-router-dom";
 import "./NavigationBar.css";
+import Menu from "./Menu";
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+import { faBars } from "@fortawesome/free-solid-svg-icons";
+import { faTimes } from "@fortawesome/free-solid-svg-icons";
+import React, { Component } from "react";
 
-export default function NavigationBar() {
-  return (
-    <nav>
-      <p>Swetha Krishnan</p>
-      <ul className="navigation">
-        <li>
-          <a href="#introduction">Home</a>
-        </li>
-        <li>
-          <a href="#aboutMe">About</a>
-        </li>
-        <li>
-          <a href="#portfolio">Portfolio</a>
-        </li>
-        <li>
-          <a href="#resume">Resume</a>
-        </li>
-        <li>
-          <a href="#contact">Contact</a>
-        </li>
-      </ul>
-    </nav>
-  );
+export default class NavigationBar extends Component {
+  state = { isToggleOn: false };
+  toggle = () => {
+    this.setState((prevState) => {
+      return { isToggleOn: !prevState.isToggleOn };
+    });
+  };
+  render() {
+    return (
+      <div className="nav-head">
+        <div className="nav-fixed">
+          <p>Swetha Krishnan</p>
+          <nav className="nav-bar">
+            <Menu />
+          </nav>
+          <button className="menu-btn" onClick={this.toggle}>
+            {this.state.isToggleOn ? (
+              <FontAwesomeIcon icon={faTimes} className="menu-icon" />
+            ) : (
+              <FontAwesomeIcon icon={faBars} className="menu-icon" />
+            )}
+          </button>
+        </div>
+        {this.state.isToggleOn && (
+          <nav className="nav-bar-colum">
+            <Menu />
+          </nav>
+        )}
+      </div>
+    );
+  }
 }

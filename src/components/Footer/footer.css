@@ -6,3 +6,9 @@
   background-color: blanchedalmond;
   font-size: 22px;
 }
+@media only screen and (max-width: 640px) {
+  .footer {
+    font-size: 15px;
+    margin-top: 50px;
+  }
+}

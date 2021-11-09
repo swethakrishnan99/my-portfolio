@@ -7,8 +7,8 @@ export default class AboutMe extends Component {
   render() {
     return (
       <div className="about-container flex-row" id="aboutMe">
-        <div>
-          <img src={std} alt="" />
+        <div className="about-image">
+          <img src={std} alt="student with laptop" />
         </div>
         <div>
           <p className="about-title">About Me</p>
@@ -22,7 +22,7 @@ export default class AboutMe extends Component {
           </p>
           <div className="tools">
             <p className="tools-title">Languages/Library/Technology</p>
-            <img src={image} alt="image" />
+            <img src={image} alt="tools" />
           </div>
         </div>
       </div>
