@@ -1,28 +1,13 @@
 {
-  "files": {
-    "main.css": "/my-portfolio/static/css/main.55649c82.chunk.css",
-    "main.js": "/my-portfolio/static/js/main.49e3c098.chunk.js",
-    "main.js.map": "/my-portfolio/static/js/main.49e3c098.chunk.js.map",
-    "runtime-main.js": "/my-portfolio/static/js/runtime-main.d9e8e5b3.js",
-    "runtime-main.js.map": "/my-portfolio/static/js/runtime-main.d9e8e5b3.js.map",
-    "static/js/2.9534b7dd.chunk.js": "/my-portfolio/static/js/2.9534b7dd.chunk.js",
-    "static/js/2.9534b7dd.chunk.js.map": "/my-portfolio/static/js/2.9534b7dd.chunk.js.map",
-    "static/js/3.5d2a8596.chunk.js": "/my-portfolio/static/js/3.5d2a8596.chunk.js",
-    "static/js/3.5d2a8596.chunk.js.map": "/my-portfolio/static/js/3.5d2a8596.chunk.js.map",
-    "index.html": "/my-portfolio/index.html",
-    "static/css/main.55649c82.chunk.css.map": "/my-portfolio/static/css/main.55649c82.chunk.css.map",
-    "static/js/2.9534b7dd.chunk.js.LICENSE.txt": "/my-portfolio/static/js/2.9534b7dd.chunk.js.LICENSE.txt",
-    "static/media/clock.3ee12a8b.png": "/my-portfolio/static/media/clock.3ee12a8b.png",
-    "static/media/img1.51bedfad.png": "/my-portfolio/static/media/img1.51bedfad.png",
-    "static/media/portfolio.3a907fc7.png": "/my-portfolio/static/media/portfolio.3a907fc7.png",
-    "static/media/sahara.97f29c71.png": "/my-portfolio/static/media/sahara.97f29c71.png",
-    "static/media/std_with_lap.daf3f7d5.png": "/my-portfolio/static/media/std_with_lap.daf3f7d5.png",
-    "static/media/todo.4c426380.png": "/my-portfolio/static/media/todo.4c426380.png"
-  },
-  "entrypoints": [
-    "static/js/runtime-main.d9e8e5b3.js",
-    "static/js/2.9534b7dd.chunk.js",
-    "static/css/main.55649c82.chunk.css",
-    "static/js/main.49e3c098.chunk.js"
-  ]
+  "main.css": "static/css/main.075c1a14.css",
+  "main.css.map": "static/css/main.075c1a14.css.map",
+  "main.js": "static/js/main.cf2f8df6.js",
+  "main.js.map": "static/js/main.cf2f8df6.js.map",
+  "static/media/Resume.pdf": "static/media/Resume.4ce0a7a7.pdf",
+  "static/media/clock.png": "static/media/clock.866a10ee.png",
+  "static/media/portfolio.png": "static/media/portfolio.07451adf.png",
+  "static/media/sahara.png": "static/media/sahara.b07bdf27.png",
+  "static/media/std_with_lap.png": "static/media/std_with_lap.0622df82.png",
+  "static/media/swetha-img.jpg": "static/media/swetha-img.335aaf10.jpg",
+  "static/media/todo.png": "static/media/todo.bf162efa.png"
 }
