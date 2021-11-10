@@ -57,6 +57,11 @@ a {
     width: 120px;
     font-size: 15px;
   }
+  .intro .btn:hover {
+    margin: 18px;
+    width: 130px;
+    font-size: 15px;
+  }
   .intro {
     height: 300px;
     padding-bottom: 10px;
