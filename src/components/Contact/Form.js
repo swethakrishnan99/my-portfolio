@@ -1,25 +1,25 @@
 import React, { Component } from "react";
-// import emailjs from "emailjs-com";
+import emailjs from "emailjs-com";
 
 export default class Form extends Component {
   state = { name: "", phone: "", email: "", message: "" };
   handleSubmit = (e) => {
     e.preventDefault();
-    // emailjs
-    //   .sendForm(
-    //     "service_dz0pnas",
-    //     "template_uyq34z6",
-    //     "#form",
-    //     "user_5yLUjqvFHV4t5VuL03tp1"
-    //   )
-    //   .then(
-    //     function (response) {
-    //       console.log("SUCCESS!", response.status);
-    //     },
-    //     function (error) {
-    //       console.log("FAILED...", error);
-    //     }
-    //   );
+    emailjs
+      .sendForm(
+        "service_dz0pnas",
+        "template_uyq34z6",
+        "#form",
+        "user_5yLUjqvFHV4t5VuL03tp1"
+      )
+      .then(
+        function (response) {
+          console.log("SUCCESS!", response.status);
+        },
+        function (error) {
+          console.log("FAILED...", error);
+        }
+      );
     this.setState({ name: "", phone: "", email: "", message: "" });
   };
   handleChange = (e) => {
