@@ -25,11 +25,34 @@
   margin-top: 5px;
   font-weight: bold;
 }
+.profile-img {
+  width: 320px;
+  height: 400px;
+  border-radius: 10px;
+}
+.profile-contact {
+  display: flex;
+  justify-content: space-evenly;
+}
+.profile-contact .icon {
+  font-size: 40px;
+  color: gray;
+}
+.profile-contact .icon:hover {
+  color: rgb(6, 58, 6);
+  font-size: 44px;
+}
 .vertical-line {
   border-left: 5px solid rgb(22, 97, 22);
   position: relative;
   right: 16px;
   padding-left: 50px;
+}
+.resume-profile {
+  background-color: white;
+  padding: 20px;
+  border-radius: 30px;
+  box-shadow: 2px 2px 20px 5px rgb(167, 166, 166);
 }
 @media only screen and (max-width: 640px) {
   .resume-title {

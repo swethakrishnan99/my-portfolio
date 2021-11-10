@@ -1,4 +1,5 @@
 import "./App.css";
+import React from "react";
 import NavigationBar from "./components/NavigationBar/NavigationBar";
 import Introduction from "./components/Introduction/Introduction";
 import AboutMe from "./components/AboutMe/AboutMe";
@@ -9,7 +10,7 @@ import Footer from "./components/Footer/Footer";
 
 function App() {
   return (
-    <>
+    <div>
       <NavigationBar />
       <Introduction />
       <AboutMe />
@@ -17,7 +18,7 @@ function App() {
       <Resume />
       <Contact />
       <Footer />
-    </>
+    </div>
   );
 }
 
