@@ -30,7 +30,7 @@ export default class NavigationBar extends Component {
         </div>
         {this.state.isToggleOn && (
           <nav className="nav-bar-colum">
-            <Menu />
+            <Menu toggle={this.toggle} />
           </nav>
         )}
       </div>

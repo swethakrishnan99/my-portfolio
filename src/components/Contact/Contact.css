@@ -79,10 +79,13 @@ label sup {
     padding: 20px;
   }
   .contact-title {
-    font-size: 40px;
+    font-size: 30px;
+  }
+  #submitBtn {
+    font-size: 15px;
   }
   .contact-title2 {
-    font-size: 35px;
+    font-size: 28px;
     margin: 20px 0;
   }
   .contact-details {

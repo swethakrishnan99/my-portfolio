@@ -12,8 +12,10 @@ export default function Resume() {
   return (
     <div className="resume-container" id="resume">
       <p className="resume-title">Resume</p>
-      <div className="flex-row">
+      <div className="flex-row reverse">
         <ul>
+          <p className="edu-title">Education</p>
+          <hr />
           <li>
             <p className="edu-title">Full Stack web development</p>
             <div className="vertical-line">
