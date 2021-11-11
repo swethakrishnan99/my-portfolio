@@ -76,7 +76,7 @@ hr {
     flex-direction: column-reverse;
   }
   hr {
-    width: 250px;
+    display: none;
   }
   .resume-profile {
     padding: 15px;
